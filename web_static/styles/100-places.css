@@ -1,7 +1,6 @@
 .places {
-  text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .places h1 {
@@ -35,17 +34,9 @@ article {
 /* article information */
 /* ************************************************** */
 
-/* circle with price */
-.article_places_header {
-  width: 100%;
-  display: flex;
-}
-
 .price_by_night {
   min-width: 60px;
   height: 60px;
-  line-height: 60px;
-  text-align: center;
   margin-left: auto;
   color: #ff5a5f;
   border: 4px solid #ff5a5f;
